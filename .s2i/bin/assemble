@@ -2,9 +2,9 @@
 
 echo  "iniciando custom s2i"
 
-cp -Rf ./src/*.html ./
+cp -Rf /tmp/src/*.html ./
 
 echo "creando pagina"
 
-echo  date +%d/%m/%Y:%H:%M:%S-%a >> ./info.html
+echo  $(date "+%d/%m/%Y:%H:%M:%S-%a") >> ./info.html
 echo  "Pagina de prueba html " >> ./info.html
