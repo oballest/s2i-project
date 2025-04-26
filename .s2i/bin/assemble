@@ -1,4 +1,5 @@
 #!/bin/bash
+/usr/libexec/s2i/assemble
 
 echo  "iniciando custom s2i"
 
