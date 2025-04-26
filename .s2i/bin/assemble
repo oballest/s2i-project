@@ -1,0 +1,10 @@
+#!/bin/bash
+
+echo  "iniciando custom s2i"
+
+cp -Rf ./src/*.html ./
+
+echo "creando pagina"
+
+echo  date +%d/%m/%Y:%H:%M:%S-%a >> ./info.html
+echo  "Pagina de prueba html " >> ./info.html
