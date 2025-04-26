@@ -3,7 +3,7 @@
 
 echo  "iniciando custom s2i"
 
-cp -Rf /tmp/src/*.html ./
+cp -Rf /tmp/src/src/*.html ./
 
 echo "creando pagina"
 
